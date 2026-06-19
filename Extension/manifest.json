@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "AI URL Phishing Detector",
+  "version": "1.0",
+  "description": "Automatically detects phishing URLs using a local AI model.",
+  "permissions": ["webNavigation"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
